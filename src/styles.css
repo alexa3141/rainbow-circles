@@ -1,21 +1,35 @@
-{
-    "name": "rainbow",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.html",
-    "scripts": {
-      "start": "parcel index.html --open",
-      "build": "parcel build index.html"
-    },
-    "dependencies": {
-      "parcel-bundler": "^1.6.1"
-    },
-    "devDependencies": {
-      "@babel/core": "7.2.0",
-      "typescript": "4.4.4"
-    },
-    "resolutions": {
-      "@babel/preset-env": "7.13.8"
-    },
-    "keywords": []
-  }
+body {
+  background-color: grey;
+  position: relative;
+}
+
+/*  Write your code here. */
+#outer {
+  border-radius: 50%;
+  background-color: orange;
+  height: 250px;
+  width: 250px;
+  border: 25px solid red;
+  top: 0;
+  left: 0;
+}
+#middle {
+  border-radius: 50%;
+  background-color: green;
+  height: 150px;
+  width: 150px;
+  border: 25px solid yellow;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+#inner {
+  border-radius: 50%;
+  background-color: purple;
+  height: 50px;
+  width: 50px;
+  border: 25px solid blue;
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
